@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FortunePort — Your Gateway to Legendary Wins</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Orbitron', sans-serif;
+    }
+    body {
+      background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: gold;
+      animation: glow 1.5s infinite alternate;
+    }
+    @keyframes glow {
+      from { text-shadow: 0 0 10px gold; }
+      to { text-shadow: 0 0 25px orange; }
+    }
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+      color: #ccc;
+    }
+    .wheel {
+      margin: 30px auto;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: conic-gradient(#e91e63 0% 25%, #ffeb3b 25% 50%, #4caf50 50% 75%, #3f51b5 75% 100%);
+      animation: spin 10s linear infinite;
+      box-shadow: 0 0 40px rgba(255, 215, 0, 0.6);
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    .section {
+      margin-top: 40px;
+    }
+    .wins, .reviews {
+      background: #222;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 15px;
+      max-width: 500px;
+      box-shadow: 0 0 10px #444;
+    }
+    .wins li, .reviews li {
+      list-style: none;
+      padding: 5px;
+    }
+    .cta-button {
+      margin-top: 40px;
+      font-size: 1.5rem;
+      color: black;
+      background: limegreen;
+      padding: 15px 30px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <h1>🎰 Welcome to FortunePort</h1>
+  <p>Your legendary casino affiliate hub</p>
+  <div class="wheel"></div>
+
+  <div class="section wins">
+    <h2>🔥 Live Wins</h2>
+    <ul>
+      <li>Alice won $4,500 on MegaSpin</li>
+      <li>Bob won $2,750 on Roulette</li>
+      <li>Christine won $6,320 on Jackpot Blaze</li>
+    </ul>
+  </div>
+
+  <div class="section reviews">
+    <h2>⭐ What Players Say</h2>
+    <ul>
+      <li>⭐⭐⭐⭐⭐ "Most exciting spin experience ever!"</li>
+      <li>⭐⭐⭐⭐⭐ "I didn’t believe it until I won $3,000"</li>
+    </ul>
+  </div>
+
+  <a class="cta-button" href="#">Tap to Begin Your Fortune</a>
+
+  <footer style="margin-top: 60px; font-size: 0.8rem; color: #888;">
+    &copy; 2025 FortunePort. All rights reserved.
+  </footer>
+</body>
+</html>
